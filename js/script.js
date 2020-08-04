@@ -1,6 +1,6 @@
 $(window).on("load", function() {
-    $(".loader .inner").fadeOut(3800, function() {
-        $(".loader").fadeOut(3700);
+    $(".loader .inner").fadeOut(2500, function() {
+        $(".loader").fadeOut(2500);
     });
 });
 
@@ -12,11 +12,17 @@ $(document).ready(function() {
     });
 
     var typed = new Typed(".typed", {
-        strings: ["I am an Engineering Student", "I am ^500 a Programmer", "I am ^500 an Analyst"],
-        typeSpeed: 40,
-        backSpeed: 40,
+        strings: [
+            "^2500",
+            "I am an Engineering Student",
+            "I am ^650 a Programmer",
+            "I am ^650 an Analyst",
+            "^500 Welcome to my portfolio website! ^5000"
+        ],
+        typeSpeed: 50,
+        backSpeed: 60,
         loop: true,
-        startDelay: 1000,
+        startDelay: 0,
         backDelay: 500,
         showCursor: false,
         smartBackspace: true,

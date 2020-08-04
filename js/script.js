@@ -56,7 +56,7 @@ $(document).ready(function() {
         if(window.pageYOffset > skillsTopOffset1 - $(window).innerHeight() + 200) {
             $('.chart1').easyPieChart({
                 easing: 'easeInOut',
-                barColor: '#ECACBA',
+                barColor: '#C9ADA7',
                 trackColor: false,
                 scaleColor: false,
                 lineWidth: 6,
@@ -70,7 +70,7 @@ $(document).ready(function() {
         if(window.pageYOffset > skillsTopOffset2 - $(window).innerHeight() + 200) {
             $('.chart2').easyPieChart({
                 easing: 'easeInOut',
-                barColor: '#AED9E0',
+                barColor: '#9498B3',
                 trackColor: false,
                 scaleColor: false,
                 lineWidth: 6,

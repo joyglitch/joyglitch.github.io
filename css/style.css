@@ -227,3 +227,61 @@ a:active {
     height: 100%;
     background: url(../img/loader.gif) center center no-repeat;
 }
+
+.filter {
+    text-align: center;
+    width: 100%;
+}
+
+.section .heading {
+    text-align: center;
+    padding-bottom: 40px;
+    width: 100%;
+}
+
+.filter a {
+    color: #6D6875;
+    border: 1px solid #6D6875;
+    padding: 12px;
+    display: block;
+}
+
+.filter li {
+    display: inline-block;
+    padding: 5px;
+}
+
+.filter .current {
+    background-color: #6D6875;
+    color: #ffffff;
+}
+
+.items li {
+    display: inline-block;
+    padding: 5px;
+}
+
+.items li img {
+    width: 100%;
+}
+
+.items .item {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.itemsContainer {
+    width: 100%;
+}
+
+.items .icons {
+    position: absolute;
+    width: 90px;
+    height: 40px;
+    left: 50%;
+    top: 50%;
+    margin: -20px auto 0 -47px;
+    text-align: center;
+    z-index: 3;
+}

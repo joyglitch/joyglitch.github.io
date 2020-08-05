@@ -105,4 +105,15 @@ $(document).ready(function() {
             body.removeClass("fixedNav");
         }
     }
+
+    $("[data-fancybox]").fancybox();
+    
+    $(".items").isotope({
+        filter: '*',
+        animationOptions: {
+            duration: 1750,
+            easing: 'linear',
+            queue: false,
+        }
+    })
 });

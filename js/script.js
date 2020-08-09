@@ -105,8 +105,6 @@ $(document).ready(function() {
             body.removeClass("fixedNav");
         }
     }
-
-    $("[data-fancybox]").fancybox();
     
     $(".items").isotope({
         filter: '*',
@@ -115,5 +113,22 @@ $(document).ready(function() {
             easing: 'linear',
             queue: false,
         }
+    });
+
+    $("$filters a").click(function () {
+        $("#filters .current").removeClass("current");
+        $(this).addClass("current");
+
+        var selected = $(this).attr("data-filter");
+
+        $(".items").isotope({
+            filter: selected,
+            animationOptions: {
+                duration: 1750,
+                easing: 'linear',
+                queue: false,
+            }
+        });
+        return false;
     })
 });

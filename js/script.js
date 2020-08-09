@@ -106,6 +106,8 @@ $(document).ready(function() {
         }
     }
     
+    //May need to remove Isotope JS
+    //https://www.w3schools.com/howto/howto_js_portfolio_filter.asp
     $(".items").isotope({
         filter: '*',
         animationOptions: {
